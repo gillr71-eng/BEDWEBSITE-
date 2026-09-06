@@ -1,0 +1,69 @@
+unified-operating-system/
+│
+├── README.md
+├── .gitignore
+├── package.json
+├── next.config.js
+├── tsconfig.json
+├── tailwind.config.js
+├── postcss.config.js
+│
+├── public/
+│   ├── icons/
+│   ├── logos/
+│   ├── manifest.json
+│   └── favicon.svg
+│
+├── app/
+│   ├── layout.tsx
+│   ├── page.tsx
+│   ├── api/
+│   │   ├── auth/
+│   │   ├── engine/
+│   │   ├── telemetry/
+│   │   └── workflow/
+│   └── dashboards/
+│       ├── enterprise/
+│       ├── life-os/
+│       ├── pulseos/
+│       └── fs-pos/
+│
+├── src/
+│   ├── engines/
+│   │   ├── jo-bed/
+│   │   ├── bed/
+│   │   ├── pulseos/
+│   │   ├── fs-pos/
+│   │   ├── ipss/
+│   │   └── max-fusion/
+│   │
+│   ├── workflow/
+│   │   ├── schemas/
+│   │   ├── handlers/
+│   │   └── services/
+│   │
+│   ├── core/
+│   │   ├── routing/
+│   │   ├── validation/
+│   │   ├── auth/
+│   │   └── integration/
+│   │
+│   ├── db/
+│   │   ├── prisma/
+│   │   └── models/
+│   │
+│   └── utils/
+│       ├── telemetry/
+│       ├── formatting/
+│       └── security/
+│
+├── docs/
+│   ├── architecture/
+│   ├── system-maps/
+│   ├── compliance/
+│   └── engines/
+│
+└── scripts/
+    ├── build/
+    ├── deploy/
+    └── maintenance/
